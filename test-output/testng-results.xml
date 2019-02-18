@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8145" started-at="2018-12-27T03:56:05Z" finished-at="2018-12-27T03:56:13Z">
+  <suite name="Default suite" duration-ms="6051" started-at="2019-02-18T04:14:43Z" finished-at="2019-02-18T04:14:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8145" started-at="2018-12-27T03:56:05Z" finished-at="2018-12-27T03:56:13Z">
-      <class name="googleAPI.SearchPlace">
-        <test-method status="PASS" signature="getRequest()[pri:0, instance:googleAPI.SearchPlace@b0338]" name="getRequest" duration-ms="8011" started-at="2018-12-27T03:56:05Z" finished-at="2018-12-27T03:56:13Z">
+    <test name="Default test" duration-ms="6051" started-at="2019-02-18T04:14:43Z" finished-at="2019-02-18T04:14:49Z">
+      <class name="googleAPI.AddAndDeletePlace">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:googleAPI.AddAndDeletePlace@71318ec4]" name="Setup" is-config="true" duration-ms="31" started-at="2019-02-18T04:14:43Z" finished-at="2019-02-18T04:14:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getRequest -->
-      </class> <!-- googleAPI.SearchPlace -->
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="PostRequest()[pri:0, instance:googleAPI.AddAndDeletePlace@71318ec4]" name="PostRequest" duration-ms="5452" started-at="2019-02-18T04:14:43Z" finished-at="2019-02-18T04:14:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostRequest -->
+      </class> <!-- googleAPI.AddAndDeletePlace -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
