@@ -22,7 +22,8 @@ public class AddAndDeletePlace {
 	
 	@BeforeTest
 	public void Setup() throws IOException {
-		fis=new FileInputStream("C:\\Users\\Vikash\\Desktop\\Java\\RestAssuredBasics\\src\\files\\env.properties");
+		String userdir=System.getProperty("user.dir");
+		fis=new FileInputStream(userdir+"\\src\\files\\env.properties");
 		prop=new Properties();
 		prop.load(fis);
 	}

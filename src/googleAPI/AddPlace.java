@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import static org.hamcrest.Matchers.equalTo;
-
 import static io.restassured.RestAssured.given;
 
 public class AddPlace {
@@ -28,7 +27,7 @@ public class AddPlace {
 		
 		RestAssured.baseURI="http://216.10.245.166";		
 		given().
-			formParam("key", " qaclick123").
+			queryParam("key", " qaclick123").
 			body(body).
 		when().
 			post("/maps/api/place/add/json").
